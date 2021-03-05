@@ -1,3 +1,6 @@
+html{
+ scroll-behavior: smooth;
+}
 body{
     text-align:center;
     margin: 0;
@@ -20,11 +23,15 @@ body{
     padding: 7px;
 }
 .item{
-    display: inline;
+  display: inline;  
+}
+.item>a{
     margin-right:10px;
     font-size: 22px;
+    text-decoration: none;
+    color: white;
 }
-.item:hover{
+.item>a:hover{
     color: aqua;
     cursor: pointer;
 }
@@ -35,4 +42,21 @@ body{
     font-size:40px;
     color: aliceblue;
     text-shadow: 2px 2px 3px black; 
+}
+#Career{
+    height: 800px;
+    width: 90%;
+}
+
+#sm{
+    padding: 30px 0px;
+    background-color: black;
+}
+#sm a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#sm span{
+    color: white;
+    margin-right: 10px;
 }
